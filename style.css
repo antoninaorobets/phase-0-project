@@ -2,6 +2,7 @@ body {
     background: #8ecae6;
     color: #023047;
     text-align: center;
+ /*   background-image: url("bang.jpeg") */
 
 }
 button {
@@ -16,4 +17,12 @@ button {
 
 .button:hover {
     background-color: #fb8500;
+}
+
+.hidden {
+    display: none;
+  }
+
+img {
+
 }
