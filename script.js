@@ -1,11 +1,12 @@
 const img = document.createElement("img")
+
 img.src = "bang.jpeg"
 
 
-const fixButton = document.createElement("button")
-fixButton.textContent="Save the World!"
-fixButton,className="button"
-fixButton.id="fix"
+const fixButton = document.getElementById("fix")
+// fixButton.textContent="Save the World!"
+// fixButton,className="button"
+// fixButton.id="fix"
 
 const noButton = document.getElementById("noClick")
 
@@ -13,16 +14,16 @@ const h1 = document.querySelector("h1")
 
 
 document.getElementById("noClick").addEventListener("click", function() {
+    noButton.className="hidden";
+   
     document.getElementById('bang-img').appendChild(img);
-    document.getElementById('bang-button').appendChild(fixButton);
-    noButton.className="hidden"
+    fixButton.className="button";
     h1.textContent= "What have YOU done?!"
   });
 
 document.getElementById("fix").addEventListener("click", function() {
-      debugger;
-    noButton.className.replace("hidden", "")
+    noButton.className="button";
     fixButton.className="hidden"
     img.className="hidden"
-    h1.textContent= "?!"
+    h1.textContent= "Whant to try again?"
   });
