@@ -1,31 +1,52 @@
 body {
-    background: #8ecae6;
-    color: #023047;
+    background: #679ac5    ;
+    color: #053c5e;
     text-align: center;
- /*   background-image: url("bang.jpeg") */
+
 
 }
 button {
-    background-color: #ffb703;
-    border-radius: 50%;
-    border: 2px solid #219ebc;
-    color: #023047;
+    background-color: #d62828;
+    border-radius: 10%;
+    border: 2px solid #053c5e;
+    color: #053c5e;
     font-size: 24px;
     padding: 16px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
- 
+
+    z-index: 10;
+
+}
+#noClick {
+    background-color: #d62828;
+    margin-top: 64px;
+    border-radius: 50%;
+    border: 2px solid #053c5e;
+    color: #053c5e;
+    font-size: 32px;
+    padding: 64px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#noClick:hover {
+    background-color: #fb8500;
 }
 
-.button:hover {
-    background-color: #fb8500;
+#fix {
+    background-color: #1f7a8c;
+    color: #bfdbf7;
+    border: 2px solid #bfdbf7;
+}
+
+#fix:hover {
+    background-color: #053c5e;
+    color: #f77f00;
 }
 .hidden {
     display: none;
   }
 
 img {
-    position: relative;
-}
-#buttons {
+    width: 100%;
 
+ 
 }
