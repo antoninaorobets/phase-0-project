@@ -18,11 +18,13 @@ button {
 .button:hover {
     background-color: #fb8500;
 }
-
 .hidden {
     display: none;
   }
 
+/* #fix {
+    position: absolute; 
+} */
 img {
-
+    position: relative;
 }
