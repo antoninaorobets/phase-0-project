@@ -6,18 +6,10 @@ body {
 
 }
 button {
-    background-color: #d62828;
-    border-radius: 10%;
-    border: 2px solid #053c5e;
-    color: #053c5e;
-    font-size: 24px;
-    padding: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-    z-index: 10;
+    
 
 }
-#noClick {
+#noButton {
     background-color: #d62828;
     margin-top: 64px;
     border-radius: 50%;
@@ -27,17 +19,24 @@ button {
     padding: 64px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-#noClick:hover {
+#noButton:hover {
     background-color: #fb8500;
+
 }
 
-#fix {
+#fixButton {
     background-color: #1f7a8c;
     color: #bfdbf7;
     border: 2px solid #bfdbf7;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+ 
 }
 
-#fix:hover {
+#fixButton:hover {
     background-color: #053c5e;
     color: #f77f00;
 }
@@ -48,5 +47,4 @@ button {
 img {
     width: 100%;
 
- 
 }
